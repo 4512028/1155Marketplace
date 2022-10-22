@@ -1,0 +1,104 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x7285930b25238135A8293879FD5F6E7e4B943773",
+    "txHash": "0x0bc05d9468243c163c12c3898b73ee16efc6987ccbf8d716525d121b0d037c96"
+  },
+  "proxies": [
+    {
+      "address": "0xfB63E3A72cD181dc0FcB4F7bFBfd54fc0fCE8809",
+      "txHash": "0x0143f65a33a76f0554fc89b8bf8a680f5d419f9b3194bc6e22f0b3487ae6c3dc",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xfe5Ec94ca6e057F09E00EC869F36544e14D7cC7B",
+      "txHash": "0xed7831189277c489130c890d0ad31bdd0071faefd0aa7ccb899603c51759fd8d",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "4d5e216d242d4e5d54e7e9d05a1570eb014b58f0260bd67243d3eae5723ed39b": {
+      "address": "0xbDd1C9D7b73Ffe976EA35a7F47f093aa8B96f734",
+      "txHash": "0x3d9f897de51b12d6bed2470f739dc8ef541d036f4633d9fdb916129d65db2710",
+      "layout": {
+        "solcVersion": "0.8.16",
+        "storage": [],
+        "types": {}
+      }
+    },
+    "27ba8adeb927f97a250ab034370aca6f371ad689031b0ff682235ee38c7f882b": {
+      "address": "0xc9aACe8A6AFC4E0660304f1dA0E6bE7181fc4507",
+      "txHash": "0xb3ecaaed5082b817e41eb7b0cbe44e1779a0360502746299ca523b951e9c5e16",
+      "layout": {
+        "solcVersion": "0.8.16",
+        "storage": [],
+        "types": {}
+      }
+    },
+    "9043d360167fa51ea58168a4df30dd66ed9c3a71607fd5b0856e022b648802a7": {
+      "address": "0x59e4C9888CC69f59D1be55e998d68dB27F7F3AED",
+      "txHash": "0xd697059f116d9536a2c401c2e86a9d489183118c4fcf80730808c64e712332e8",
+      "layout": {
+        "solcVersion": "0.8.16",
+        "storage": [
+          {
+            "contract": "Tokenv2",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/tokenv2.sol:4"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/tokenv2.sol:5"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "totalSupply",
+            "type": "t_uint256",
+            "src": "../project:/contracts/tokenv2.sol:6"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "decimals",
+            "type": "t_uint8",
+            "src": "../project:/contracts/tokenv2.sol:7"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "balanceOf",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../project:/contracts/tokenv2.sol:21"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "allowance",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../project:/contracts/tokenv2.sol:22"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          }
+        }
+      }
+    }
+  }
+}

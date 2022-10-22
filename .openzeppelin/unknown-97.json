@@ -1,0 +1,542 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x4b28d7b15F57d0171aDE108047dBFEB3Be081D5a",
+    "txHash": "0xbf58e3386eef3eb6dae0dcf083b975dbd37eab9d8dc9dbc9b76c452ecf8a8b99"
+  },
+  "proxies": [
+    {
+      "address": "0x2ADBF25127D884f5E528971F955AFbCf92aF56Cf",
+      "txHash": "0xcd1c994f9e0dd6815d04a0611cb54efb41e6268f21aa0b6c1b1afc0e8824995d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6eA9a0E7cd43235028989C570c846aE79dfa7616",
+      "txHash": "0x43d392af07549c91f6b06f29e59aa22e3e43fde762123e8fda1d95b629d50ee5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2240e6817e2Fb4DF9bE6B5cEB61B7676Df6A6446",
+      "txHash": "0x59b395b22aed9ef1e9b0df1b9ba65b95d0aa39fc034f796d1a2f911dd50eb2d5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x21F9bbE8907F770E0Dbd84F0414636E17570D331",
+      "txHash": "0xb4439be0a43df1a912b6ba0ad989c10a16a3d38d15d55bf46855673be8144a48",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x263C74c4c90766E2522796B519c571Ab1864ac83",
+      "txHash": "0x58599a4ec5b432b3506eb789bc5da52f941381ae5bde32f1243c6ec609d01ca7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x773082E56fa4bA8847CC0D548450713473a90bb6",
+      "txHash": "0xb1c60f2922156ae64d6a7e8f9ae902c717d5793b8eb92d0c094e4739b8dbf776",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd173916D9f11962fa8471E815708c7fd0Bc530C8",
+      "txHash": "0xf9972aaaa7ed071b85b467741550b0a77c2233589d050e0deea8b68aa5fb3637",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x32dF3aA2FB73595Ac31C67d7996A9Cc5A46eC8c4",
+      "txHash": "0xc6543b8374761a8d2cb49f0e77a07b690d36ce8720df9e5550fdea1405a9a840",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xdbE70ED03fEa0CBcfB82A3293767288C93c714Bb",
+      "txHash": "0x8a1cf374d118fdaf36fee9f81910b12f5d2953adc86dc3c2cbc16f64f07a65c1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x64c3459Bd80A932D66e1B2fD1F5B48706106E1A0",
+      "txHash": "0x2ace7a536b8bb89c6100a513145a9573583b321fc57db824e528cddeb7c60eef",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x282CABbE666eCd332f4F8337D4E3AD3553E1aBAD",
+      "txHash": "0x46aedd2a96209455bf0eeb1e732eceab6835c8932e067fba8b0913bd7ec5455a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6a95b40a2Ef40faE8667CAC6a4F3Ed0662162635",
+      "txHash": "0x4e0311beee0740b4986847a4d2885674355693aa33c2642fbc68e9e8eb89c4d3",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "27ba8adeb927f97a250ab034370aca6f371ad689031b0ff682235ee38c7f882b": {
+      "address": "0xCdd7132FcEbcB044d8c785d3cd3DD4cae662CFE0",
+      "txHash": "0x8c43ab7936248501d4ebd73c21cf926773923897d7f3ea3e21882358cd5f76df",
+      "layout": {
+        "solcVersion": "0.8.16",
+        "storage": [],
+        "types": {}
+      }
+    },
+    "9043d360167fa51ea58168a4df30dd66ed9c3a71607fd5b0856e022b648802a7": {
+      "address": "0xa2F84973b226BD64a66720A39C252709E232E629",
+      "txHash": "0xb8bd1840b57e186fd9b132d64f4095d16d0ab5524e1acca69b975a8df5506f45",
+      "layout": {
+        "solcVersion": "0.8.16",
+        "storage": [
+          {
+            "contract": "Tokenv2",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/tokenv2.sol:4"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/tokenv2.sol:5"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "totalSupply",
+            "type": "t_uint256",
+            "src": "../project:/contracts/tokenv2.sol:6"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "decimals",
+            "type": "t_uint8",
+            "src": "../project:/contracts/tokenv2.sol:7"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "balanceOf",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../project:/contracts/tokenv2.sol:21"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "allowance",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../project:/contracts/tokenv2.sol:22"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          }
+        }
+      }
+    },
+    "942c79002039122518343b3c9adb91229bf599089b8e6150b70fd24f8cb857ea": {
+      "address": "0x6D7A3d9f103C1C32C592aeBAE851F2913b7EdEf4",
+      "txHash": "0xd9edd8218df6c7832142d5dcb4055970bb1db79e1e8c5baffee99b8c4b1e2739",
+      "layout": {
+        "solcVersion": "0.8.16",
+        "storage": [
+          {
+            "contract": "Tokenv2",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/tokenv2.sol:4"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/tokenv2.sol:5"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "totalSupply",
+            "type": "t_uint256",
+            "src": "../project:/contracts/tokenv2.sol:6"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "decimals",
+            "type": "t_uint8",
+            "src": "../project:/contracts/tokenv2.sol:7"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "balanceOf",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../project:/contracts/tokenv2.sol:21"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "allowance",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../project:/contracts/tokenv2.sol:22"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          }
+        }
+      }
+    },
+    "720a41d631eaed712166cc799497a27570a136800ee08e88f2d832cc0f0cc1b0": {
+      "address": "0x8Df9B5DDc20AB4CF8E040Ab3c6b234c8bb7f258D",
+      "txHash": "0x7fab61728621b9cd5f16ddecb5e4a4d5e9f91fbb2745e81c7ebfe973052e8286",
+      "layout": {
+        "solcVersion": "0.8.16",
+        "storage": [
+          {
+            "contract": "Tv1",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/Tv1.sol:6"
+          },
+          {
+            "contract": "Tv1",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/Tv1.sol:7"
+          },
+          {
+            "contract": "Tv1",
+            "label": "totalSupply",
+            "type": "t_uint256",
+            "src": "../project:/contracts/Tv1.sol:8"
+          },
+          {
+            "contract": "Tv1",
+            "label": "decimals",
+            "type": "t_uint8",
+            "src": "../project:/contracts/Tv1.sol:9"
+          },
+          {
+            "contract": "Tv1",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../project:/contracts/Tv1.sol:10"
+          },
+          {
+            "contract": "Tv1",
+            "label": "balanceOf",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../project:/contracts/Tv1.sol:23"
+          },
+          {
+            "contract": "Tv1",
+            "label": "allowance",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../project:/contracts/Tv1.sol:24"
+          },
+          {
+            "contract": "Tv1",
+            "label": "whitelist",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "../project:/contracts/Tv1.sol:25"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "7f9fc9a5b853245dc9a4344a456021a70340a667f239f386e8224272167b7e80": {
+      "address": "0xcc808428B2ab9888EfD34d7EDCa08eF415517222",
+      "txHash": "0x29142bdcbe3a2bde3d72bd5548bb760f391a5d9fbb2e928365ecae320ca5bfc0",
+      "layout": {
+        "solcVersion": "0.8.16",
+        "storage": [
+          {
+            "contract": "Tokenv2",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/tokenv2.sol:6"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/tokenv2.sol:7"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "totalSupply",
+            "type": "t_uint256",
+            "src": "../project:/contracts/tokenv2.sol:8"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "decimals",
+            "type": "t_uint8",
+            "src": "../project:/contracts/tokenv2.sol:9"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../project:/contracts/tokenv2.sol:10"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "balanceOf",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../project:/contracts/tokenv2.sol:23"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "allowance",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../project:/contracts/tokenv2.sol:24"
+          },
+          {
+            "contract": "Tokenv2",
+            "label": "whitelist",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "../project:/contracts/tokenv2.sol:25"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "421d52f31ec208ddefb1d14688c756f36aa361f00a86224e7f883e267b4abc83": {
+      "address": "0x337Ba81a89AA2F06A34868fb951868f1b1Ec11eD",
+      "txHash": "0x8d493c9051ee1cf90cb64ee615884a94518317c4790450d1b13e8c713fa61ae6",
+      "layout": {
+        "solcVersion": "0.8.16",
+        "storage": [
+          {
+            "contract": "Tv2",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/Tv1.sol:6"
+          },
+          {
+            "contract": "Tv2",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/Tv1.sol:7"
+          },
+          {
+            "contract": "Tv2",
+            "label": "totalSupply",
+            "type": "t_uint256",
+            "src": "../project:/contracts/Tv1.sol:8"
+          },
+          {
+            "contract": "Tv2",
+            "label": "decimals",
+            "type": "t_uint8",
+            "src": "../project:/contracts/Tv1.sol:9"
+          },
+          {
+            "contract": "Tv2",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../project:/contracts/Tv1.sol:10"
+          },
+          {
+            "contract": "Tv2",
+            "label": "balanceOf",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../project:/contracts/Tv1.sol:23"
+          },
+          {
+            "contract": "Tv2",
+            "label": "allowance",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../project:/contracts/Tv1.sol:24"
+          },
+          {
+            "contract": "Tv2",
+            "label": "whitelist",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "../project:/contracts/Tv1.sol:25"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "6053f10d3e6d7d16baff2a57459acbf99786b65b64275ac735ebee2cee09d47c": {
+      "address": "0x35CA3d1239489819d8329855aB74D80a0058a975",
+      "txHash": "0xad0e90ca555d6da1bd514134425db240646123cf125a22080e39f0b41b17a392",
+      "layout": {
+        "solcVersion": "0.8.16",
+        "storage": [
+          {
+            "contract": "Tv3",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/Tv3.sol:6"
+          },
+          {
+            "contract": "Tv3",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/Tv3.sol:7"
+          },
+          {
+            "contract": "Tv3",
+            "label": "totalSupply",
+            "type": "t_uint256",
+            "src": "../project:/contracts/Tv3.sol:8"
+          },
+          {
+            "contract": "Tv3",
+            "label": "decimals",
+            "type": "t_uint8",
+            "src": "../project:/contracts/Tv3.sol:9"
+          },
+          {
+            "contract": "Tv3",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../project:/contracts/Tv3.sol:10"
+          },
+          {
+            "contract": "Tv3",
+            "label": "balanceOf",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../project:/contracts/Tv3.sol:23"
+          },
+          {
+            "contract": "Tv3",
+            "label": "allowance",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../project:/contracts/Tv3.sol:24"
+          },
+          {
+            "contract": "Tv3",
+            "label": "whitelist",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "../project:/contracts/Tv3.sol:25"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  }
+}
