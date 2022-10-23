@@ -1,6 +1,6 @@
 # 1155Marketplace
 1155 Marketplace
 
-MArketPlace address : 0x39E2175C5AfB82BDeE27003b6Ac4EE22bF8e7392
+MArketPlace address : 0x9Cfeda394c934479670D03C55C1609b39B3726C2
 
-Minting Contract address 0x86bf4887a4f5Dd302aFECEb386890B97313Cd1fa
+Minting Contract address 0x5c06d9cA5667A07b50CBebF51cb29796FD887f45
